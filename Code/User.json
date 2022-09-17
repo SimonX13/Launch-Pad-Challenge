@@ -1,0 +1,43 @@
+[
+    {
+        "_id": "email_address",
+        "current_order":[
+            {
+                "items":[
+                    
+                ],
+                "time": "2022-09-09"
+            }
+        ],
+        "receipt":[
+            {
+                "total_price": 20.25,
+                "date": "2022-08-09",
+                "items": {
+                    "item1" : "hawaiian pizza",
+                    "item2" : "cola"
+
+                }
+            },
+            {
+                "total_price": 20.25,
+                "date": "2022-08-19",
+                "items": {
+                    "item1" : "hawaiian pizza",
+                    "item2" : "cola"
+
+                }
+            },
+            {
+                "total_price": 20.25,
+                "date": "2022-08-29",
+                "items": {
+                    "item1" : "hawaiian pizza",
+                    "item2" : "cola"
+
+                }
+            }
+        ]
+
+    }
+]

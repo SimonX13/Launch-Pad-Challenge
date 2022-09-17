@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 1,
+        "pizza": {
+            "name": "hawaiian Pizza",
+            "size" : "medium",
+            "price": 18.5
+        }
+    },
+    {
+        "_id": 2,
+        "pizza": {
+            "name": "pepperoni  Pizza",
+            "size" : "large",
+            "price": 20.5
+        }
+    }
+]
