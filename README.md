@@ -36,8 +36,8 @@ As a business owner, the principle of every decision I make is profitability, in
 
 ### For the status implementation, I have a couple ideas.
 1.  The backend has endpoint like this	GET    https:// 10:20:30:40/order/status  and the frontend would write client JS to do long polling by constantly 
-requesting response from this API. And in this method, we look up location information in the database and we need the delivery person to upload his/her location using GPS service to the database.
-2. Use Websocket to establish a connection between frontend and backend so we can establish a connection between client and server so that any new information I can stream and pass into the client to be addressed.
+requesting response from this API. In the backend, a function is responsible to find location information in the database and we need the delivery person to upload his/her location using GPS service to the database.
+2. Use Websocket to establish a connection between frontend and backend so that any new information server can stream and pass to the client. Calculate a percentage based on current distance divided by total distance and pass it to the frontend which can display a tracking part using simple client side logic.
 
 * GET    https:// 10:20:30:40/receipts  
     * Using sort method to create a descending list of receipt and then slice out the ones that is over one year, and then send back the JSON object.
