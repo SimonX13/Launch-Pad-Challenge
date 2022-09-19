@@ -1,4 +1,4 @@
-# Launch-Pad-Challenge
+# Launch-Pad-Challenge -- Backend
 
 ## Commerce perspective:
 As a business owner, the principle of every decision I make is profitability, in terms of cost and benefit. The cost of building online platform for users is greater than partnering with existing delivery app such as uber eat, door dash, skip the dish…. Using Uber Eat might generate a greater amount of revenue and profit simply because more users know about Uber eat and they use it more often. However, I would still build an app on our own in the long term, because we can build our own UI which might create better user experience so that our reputation can grow and generate more profit in the long run!
